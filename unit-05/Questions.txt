@@ -1,0 +1,65 @@
+WAP in C++ to implement list as a stack in STL
+WAP in C++ to implement 
+P17_Task-01_ListInSTL.cpp
+#####################
+a.    List:
+1.    Iterate a int list using iterator and print it
+2.    Find size of a list
+3.    Sort a list
+4.    Reverse a list
+
+ 
+
+P17_Task-02_VectorInSTL.cpp
+#######################
+b.    Vector:
+1.    Insert elements into a int vector
+2.    Iterate this vector using iterator and print it
+3.    Find size of a capacity and max size of a vector
+4.    Resize a vector
+5.    checks if the vector is empty or not
+
+ 
+
+P17_Task-03_MapInSTL.cpp
+#####################
+c.    Map:
+1.    Insert elements into a <int, string> map
+2.    insert elements in random order
+3.    Iterate this map using iterator and print its keys and values
+4.    Find an element as key from this map
+5.    assigning the elements from map1 to map2
+6.    remove all elements with key = x (any key present in map)
+7.    Find size, max size of a map
+8.    checks if this map is empty or not
+9.    Clear a map
+
+ 
+
+P17_Task-04_AlgorithmInSTL.cpp
+##########################
+1.    Covert an Array into a Vector
+2.    Sort a Vector
+3.    Reverse a vector
+4.    Max element in a Vector
+5.    Min element in a Vector
+6.    Occurrences of x in a vector
+7.    Sort an Array
+
+ 
+
+
+P18_Task-01_FileHandlingInC++.cpp
+############################
+WAP in C++ to read and write from and to a file using ifstream and ofstream.
+ 
+P18_Task-02_FileHandlingInC++.cpp
+############################
+WAP in C++ to perform these tasks:
+a.    Read from a file using fstream [char by char]
+b.    Write into a file using fstream
+c.    Append into a file using fstream
+d.    Count total number of characters, words and lines in a file
+
+ 
+

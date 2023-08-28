@@ -1,0 +1,56 @@
+STL:
+->The Standard Template Library is a set of C++ template classes.
+->STL is mainly divided into three sub libraries:
+    1. Containers:It is a way that stored data is organized in memory[Elements of Array].
+    2. Algorithms:Procedures that are applied on containers [search,sort].
+    3. Iterators:Concept of Containers,which point to the elements in the container[Find next Elements].
+  AUTO KEYWORD AUTOMATICALLY GET THE DATA TYPE OF ITERATOR AT THE RUN TIME
+Containers:
+      -> Container Library is a collection of Classes
+      ->Containers are implemented as generic class templates
+      ->common Examples:
+      1. List:based on linked list(replicate linked list)
+      2. vectors:replicate arrays
+      3. stack:replicate stack
+      4. trees:replicate class
+      5. maps: replicate associativity array
+      6. set : replicate tree
+
+list:
+      ->Support bidirectional,linear list
+      ->it is based on linked list(using iterator pointer)
+      ->Cost of accessing an array elements is less as compared to list due to head to tail traversal in list for any search.
+      ->Array uses fixed size memory [used and unused] but list uses memory for used space only:Hence list is better in terms of memory utilization
+      ->list only supports sequential access ,but vector supports random access 
+      ->can be accessed from front and back but linearly (by iterator)
+      ->sorting,reverse,iterator,size
+
+vectors:
+      ->Vectors are same as dynamic arrays with the ability to resize itself automatically when an element is inserted or deleted.
+      ->vector<int>a;
+          vector<int>b=a;
+          (this cannot be done with an array)
+      ->In vectors,data is inserted at the end:
+          begin()-Returns an iterator pointing to the first element in the vector.
+          end()-Returns an iterator pointing to the theoretical element that follows the last element in the vector.
+          rbegin()-Reverse beginning it moves from last to first element.
+          rend()-Considered as reverse end
+          size()-Returns the number of elements in the vector.
+          max_size()-Returns the maximum number of elements that the vector can hold.
+          capacity()-Returns the size of the storage space currently allocated to the vector expressed as number of elements.
+          resize(n)-Resize the container so that it contains n elements
+          empty()-Return whether the vector is empty or not
+Maps:
+    ->Maps are associative containers that store elements in a map.
+    ->Each Element has a key value and a mapped value.
+    ->No two mapped values can have same key values.
+          begin()-Returns an iterator to the first element in the map.
+          end()-Returns an iterator pointing to the theoretical element that follows the last element in the map.
+          size()-Returns the number of elements in the map.
+          max-size()-Returns the maximum number of elements that the map can hold.
+          empty()-Return whether the map is empty or not
+                  pair insert(keyvalue,mapvalue)-Adds a new element to the map
+          erase(iterator position)-Removes the element at the position pointed by the iterator.
+          clear()-Removes all the elements from the map
+          find an element:
+           auto it=map1.find(3).

@@ -1,0 +1,25 @@
+polymorphism= many forms
+1.compile time polymorphism
+    1.function overloading[ad-hoc]
+    -function overloading is a feature of oops where 2 or more func. can have same name but different parameters.
+    2.Operator Overloading:
+    -giving diiferent defination of the same operator [123+"hello"]
+    -we have to provide explicite defination to such operators.
+2.Run/time polymorphism
+    1.function overriding:
+    -it redefines a fuction of the base class inside the derived class which overrides the base class function.
+    2.late binding[then what is early binding]
+    -early binding (compile time polymorphism)
+        *by default early binding happens in c++
+        *when compiler knows which function will surely be called by an object then the call will be binded by the compiler
+        *binding is resolved at compile time.
+    -Late binding(run time/dynamic polymorphism)
+        *late binding is achieved with the help of virtual function
+        *when compiler does not know which function will surely be called by an object then the call will be binded by the jvm not by the compiler
+        *binding is resolved at run time
+3.virtual function:
+    -a virtual function is a member function that is decleared in the base class using virtual keyword virtual and is re-defined(overriden) in the derived class.
+    -virtual functions ensure that the correct function is called for an object,regardless of the type of refernce(or pointer) used for function call.
+    -they are mainly used to acheive keyword in base class.
+    -functions are decleared with a virtual keyword in base class.
+    -the resolving of function call is done at runtime not at compile time. 
